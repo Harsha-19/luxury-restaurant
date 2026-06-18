@@ -1,4 +1,4 @@
-# 🍷 Aurum Dining - Luxury Restaurant Landing Page
+# 🍷 Aura Dining - Luxury Restaurant Landing Page
 
 A premium, high-converting restaurant landing page built with **Next.js 15+, TypeScript, Tailwind CSS, and Framer Motion**.
 
