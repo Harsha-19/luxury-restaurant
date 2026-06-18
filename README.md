@@ -1,4 +1,4 @@
-# 🍷 Aura Dining - Luxury Restaurant Landing Page
+# Aura Dining - Luxury Restaurant Landing Page
 
 A premium, high-converting restaurant landing page built with **Next.js 15+, TypeScript, Tailwind CSS, and Framer Motion**.
 
@@ -6,7 +6,7 @@ Designed for fine dining restaurants, luxury cafes, bistros, and modern hospital
 
 ---
 
-## ✨ Features
+## Features
 
 ### Premium UI/UX
 
@@ -61,7 +61,7 @@ Designed for fine dining restaurants, luxury cafes, bistros, and modern hospital
 
 ---
 
-# 🏗️ Tech Stack
+# Tech Stack
 
 | Technology      | Purpose            |
 | --------------- | ------------------ |
@@ -77,7 +77,7 @@ Designed for fine dining restaurants, luxury cafes, bistros, and modern hospital
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 src/
@@ -109,7 +109,7 @@ src/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Prerequisites
 
@@ -164,7 +164,7 @@ http://localhost:3000
 
 ---
 
-# ⚙️ Environment Variables
+# Environment Variables
 
 Create a file:
 
@@ -184,7 +184,7 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
 ---
 
-# 🖼️ Image Configuration
+# Image Configuration
 
 All images are stored locally inside:
 
@@ -225,7 +225,7 @@ images: {
 
 ---
 
-# 🧪 Development Commands
+# Development Commands
 
 ## Start Development
 
@@ -253,7 +253,7 @@ npm run lint
 
 ---
 
-# 🎨 Design System
+# Design System
 
 ## Colors
 
@@ -295,7 +295,7 @@ Inter
 
 ---
 
-# 📱 Responsive Breakpoints
+# Responsive Breakpoints
 
 ```text
 Mobile
@@ -316,7 +316,7 @@ Ultra Wide
 
 ---
 
-# 📋 Main Sections
+# Main Sections
 
 ## Hero
 
@@ -404,7 +404,7 @@ Maps and contact information.
 
 ---
 
-# 🔍 SEO Features
+# SEO Features
 
 Implemented:
 
@@ -417,7 +417,7 @@ Implemented:
 
 ---
 
-# ♿ Accessibility
+# Accessibility
 
 Implemented:
 
@@ -429,7 +429,7 @@ Implemented:
 
 ---
 
-# 🚀 Deployment
+# Deployment
 
 ## Vercel
 
@@ -467,7 +467,7 @@ Publish Directory:
 
 ---
 
-# 📈 Lighthouse Targets
+# Lighthouse Targets
 
 | Category       | Target |
 | -------------- | ------ |
@@ -478,7 +478,7 @@ Publish Directory:
 
 ---
 
-# 🔮 Future Enhancements
+# Future Enhancements
 
 * Online Table Booking API
 * Admin Dashboard
@@ -491,7 +491,7 @@ Publish Directory:
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 Built as a premium commercial-grade landing page template for restaurants, cafes, fine dining establishments, and hospitality brands.
 
