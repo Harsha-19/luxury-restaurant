@@ -25,7 +25,7 @@ export default function Gallery() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-heading font-bold text-white"
           >
-            Aura in Pictures
+            Aurum in Pictures
           </motion.h2>
         </div>
 

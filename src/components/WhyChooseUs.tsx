@@ -58,7 +58,7 @@ export default function WhyChooseUs() {
             viewport={{ once: true }}
             className="text-[var(--color-primary)] uppercase tracking-widest text-sm font-semibold block mb-4"
           >
-            The Aura Difference
+            The Aurum Difference
           </motion.span>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}

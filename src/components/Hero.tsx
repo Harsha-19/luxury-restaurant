@@ -30,12 +30,12 @@ const itemVariants = {
 
 export default function Hero() {
   return (
-    <section id="home" className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden pt-32 pb-24">
       {/* Background Video/Image */}
       <div className="absolute inset-0 w-full h-full">
         {/* Placeholder for video. Using a high-quality luxury dining image as fallback. */}
         <Image 
-          src={`${BASE_PATH}/images/gallery-3.jpg`}
+          src={`${BASE_PATH}/images/hero/hero-banner.jpg`}
           alt="Luxury restaurant atmosphere"
           fill
           priority
@@ -93,30 +93,36 @@ export default function Hero() {
             </Link>
           </motion.div>
         </motion.div>
-      </div>
 
-      {/* Floating Statistics - Only visible on md+ screens */}
-      <motion.div 
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-12 left-0 right-0 z-10 hidden md:flex justify-center"
-      >
-        <div className="glass rounded-2xl px-10 py-6 flex gap-16">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
-            return (
-              <div key={index} className="flex flex-col items-center gap-2">
-                <div className="flex items-center gap-2 text-[var(--color-primary)]">
-                  <Icon size={24} />
-                  <span className="text-3xl font-bold font-heading">{stat.value}</span>
-                </div>
-                <span className="text-sm text-[var(--color-text-secondary)] uppercase tracking-wider">{stat.label}</span>
-              </div>
-            );
-          })}
-        </div>
-      </motion.div>
+        {/* Floating Statistics - Only visible on md+ screens */}
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.5, duration: 1 }}
+          className="mt-28 hidden md:flex justify-center w-full"
+        >
+          <div className="relative">
+            {/* SaaS-grade Glass Card - Reduced height, softer glass */}
+            <div className="relative backdrop-blur-[30px] bg-white/[0.03] border border-white/[0.05] shadow-[0_8px_32px_rgba(0,0,0,0.4)] rounded-2xl px-16 py-6 flex gap-24 items-center justify-center">
+              {stats.map((stat, index) => {
+                const Icon = stat.icon;
+                return (
+                  <div key={index} className="flex flex-col items-center gap-2 relative">
+                    {/* Subtle individual glow behind each statistic */}
+                    <div className="absolute inset-0 bg-[var(--color-primary)] blur-[35px] opacity-[0.08] rounded-full scale-150 translate-y-2 pointer-events-none"></div>
+                    
+                    <div className="flex items-center gap-3 text-white relative z-10">
+                      <Icon size={20} className="text-[var(--color-primary)] opacity-80" />
+                      <span className="text-3xl font-bold font-heading drop-shadow-sm">{stat.value}</span>
+                    </div>
+                    <span className="text-[11px] text-white/40 uppercase tracking-[0.25em] font-medium relative z-10">{stat.label}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </motion.div>
+      </div>
 
       {/* Scroll indicator */}
       <motion.div

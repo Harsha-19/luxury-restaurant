@@ -32,7 +32,7 @@ export default function WhatsAppCTA() {
               transition={{ delay: 0.1 }}
               className="text-3xl md:text-5xl font-heading font-bold text-white mb-6"
             >
-              Craving Aura at Home?
+              Craving Aurum at Home?
             </motion.h2>
             
             <motion.p 
@@ -83,7 +83,7 @@ export default function WhatsAppCTA() {
             <div className="relative group cursor-pointer w-full max-w-sm">
               <div className="absolute -inset-1 bg-gradient-to-r from-[#25D366] to-[#1DA851] rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
               <a 
-                href="https://wa.me/15551234567?text=Hi!%20I%20would%20like%20to%20place%20an%20order."
+                href="https://wa.me/919876543210?text=Hi!%20I%20would%20like%20to%20place%20an%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative flex flex-col items-center justify-center gap-3 bg-[#111111] px-8 py-10 rounded-2xl border border-white/10 hover:border-[#25D366]/50 transition-all duration-300"
@@ -92,7 +92,7 @@ export default function WhatsAppCTA() {
                   <MessageCircle className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-white mt-4">Order on WhatsApp</h3>
-                <p className="text-[#25D366] font-medium">+1 (555) 123-4567</p>
+                <p className="text-[#25D366] font-medium">+91 98765 43210</p>
               </a>
             </div>
           </motion.div>
@@ -102,7 +102,7 @@ export default function WhatsAppCTA() {
 
       {/* Floating WhatsApp Icon for bottom corner */}
       <a 
-        href="https://wa.me/15551234567" 
+        href="https://wa.me/919876543210" 
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:scale-110 transition-transform duration-300 group"

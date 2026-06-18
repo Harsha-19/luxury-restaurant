@@ -138,7 +138,7 @@ export default function ReservationForm() {
                     <input 
                       {...register("phone")}
                       className={`w-full bg-white/5 border ${errors.phone ? 'border-red-500' : 'border-white/10'} rounded-xl px-4 py-3 text-white focus:outline-none focus:border-[var(--color-primary)] transition-colors`}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+91 98765 00000"
                     />
                     {errors.phone && <span className="text-red-400 text-xs flex items-center gap-1"><AlertCircle className="w-3 h-3"/> {errors.phone.message}</span>}
                   </div>

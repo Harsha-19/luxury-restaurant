@@ -21,7 +21,7 @@ export default function OurStory() {
             <div className="relative h-[600px] w-full rounded-2xl overflow-hidden glass p-2">
               <div className="relative w-full h-full rounded-xl overflow-hidden">
                 <Image 
-                  src={`${BASE_PATH}/images/gallery-2.jpg`}
+                  src={`${BASE_PATH}/images/gallery/gallery-2.jpg`}
                   alt="Restaurant Interior"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -39,7 +39,7 @@ export default function OurStory() {
             >
               <div className="relative w-full h-full rounded-xl overflow-hidden">
                 <Image 
-                  src={`${BASE_PATH}/images/gallery-4.jpg`}
+                  src={`${BASE_PATH}/images/gallery/gallery-4.jpg`}
                   alt="Chef cooking"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -65,7 +65,7 @@ export default function OurStory() {
             </h2>
             
             <p className="text-[var(--color-text-secondary)] text-lg mb-6 leading-relaxed">
-              Founded in 2008, Aura began with a simple yet ambitious vision: to redefine the fine dining experience by blending classic techniques with avant-garde presentation. 
+              Founded in 2008, Aurum Dining began with a simple yet ambitious vision: to redefine the fine dining experience by blending classic techniques with avant-garde presentation. 
             </p>
             <p className="text-[var(--color-text-secondary)] text-lg mb-10 leading-relaxed">
               Every dish that leaves our kitchen is a testament to our commitment to sourcing the finest seasonal ingredients. We don't just serve food; we orchestrate an unforgettable symphony of flavors, textures, and aromas designed to awaken the senses.

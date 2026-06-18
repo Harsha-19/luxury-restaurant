@@ -15,10 +15,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link href="/" className="text-3xl font-bold font-heading tracking-widest text-[var(--color-primary)] mb-6 block">
-              AURA
+              AURUM DINING
             </Link>
             <p className="text-[var(--color-text-secondary)] mb-8 leading-relaxed">
-              A symphony of taste, an atmosphere of elegance. Redefining fine dining for the modern palate.
+              Located in the heart of Chennai, Aurum Dining offers a luxury dining experience inspired by India's rich culinary heritage and contemporary hospitality.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-[var(--color-primary)] transition-colors">
@@ -54,15 +54,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-[var(--color-text-secondary)]">
                 <MapPin className="w-5 h-5 text-[var(--color-primary)] shrink-0 mt-0.5" />
-                <span>123 Luxury Avenue, <br/> New York, NY 10001</span>
+                <span>No. 42, Khader Nawaz Khan Road, <br/> Nungambakkam, Chennai - 600034</span>
               </li>
               <li className="flex items-center gap-3 text-[var(--color-text-secondary)]">
                 <Phone className="w-5 h-5 text-[var(--color-primary)] shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 98765 43210</span>
               </li>
               <li className="flex items-center gap-3 text-[var(--color-text-secondary)]">
                 <Mail className="w-5 h-5 text-[var(--color-primary)] shrink-0" />
-                <span>info@aurarestaurant.com</span>
+                <span>reservations@aurumdining.in</span>
               </li>
             </ul>
           </div>
@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-[var(--color-text-secondary)] text-sm">
-            &copy; {new Date().getFullYear()} Aura Restaurant. All rights reserved.
+            &copy; {new Date().getFullYear()} Aurum Dining. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-[var(--color-text-secondary)]">
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
