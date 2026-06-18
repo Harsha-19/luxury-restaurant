@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
   output: "export",
 
+  basePath: isProd ? "/luxury-restaurant" : "",
+  assetPrefix: isProd ? "/luxury-restaurant" : "",
+
   images: {
     unoptimized: true,
-
     remotePatterns: [
       {
         protocol: "https",
@@ -13,13 +17,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-
-  allowedDevOrigins: [
-    "10.164.206.119",
-  ],
-
-  basePath: "/luxury-restaurant",
-  assetPrefix: "/luxury-restaurant",
 };
 
 export default nextConfig;

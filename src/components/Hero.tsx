@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Star, Users, Clock } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { BASE_PATH } from "@/lib/basePath";
 
 const stats = [
   { icon: Users, value: "5000+", label: "Customers Served" },
@@ -34,7 +35,7 @@ export default function Hero() {
       <div className="absolute inset-0 w-full h-full">
         {/* Placeholder for video. Using a high-quality luxury dining image as fallback. */}
         <Image 
-          src="/images/gallery-3.jpg"
+          src={`${BASE_PATH}/images/gallery-3.jpg`}
           alt="Luxury restaurant atmosphere"
           fill
           priority

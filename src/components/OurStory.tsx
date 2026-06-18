@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { BASE_PATH } from "@/lib/basePath";
 
 export default function OurStory() {
   return (
@@ -20,7 +21,7 @@ export default function OurStory() {
             <div className="relative h-[600px] w-full rounded-2xl overflow-hidden glass p-2">
               <div className="relative w-full h-full rounded-xl overflow-hidden">
                 <Image 
-                  src="/images/gallery-2.jpg"
+                  src={`${BASE_PATH}/images/gallery-2.jpg`}
                   alt="Restaurant Interior"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -38,7 +39,7 @@ export default function OurStory() {
             >
               <div className="relative w-full h-full rounded-xl overflow-hidden">
                 <Image 
-                  src="/images/gallery-4.jpg"
+                  src={`${BASE_PATH}/images/gallery-4.jpg`}
                   alt="Chef cooking"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
